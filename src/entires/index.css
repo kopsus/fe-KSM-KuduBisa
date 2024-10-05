@@ -29,7 +29,7 @@
   }
 
   .date_news {
-    @apply text-lighBlack text-lg;
+    @apply text-lighBlack text-sm;
   }
 }
 

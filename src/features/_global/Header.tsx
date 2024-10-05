@@ -1,5 +1,6 @@
 import { ButtonRed, ButtonTertiary } from "./components/Button";
 import Logo from "../../core/assets/Logo.png";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const itemList = [
@@ -31,9 +32,19 @@ const Header = () => {
       </div>
       <div className="flex items-center gap-11">
         {itemList.map((item, index) => (
-          <p key={index} className="text-white">
+          <NavLink
+            to={`${item.name === "Beranda" ? "/" : item.name}`}
+            key={index}
+            className={({ isActive, isPending }) =>
+              isPending
+                ? "pending"
+                : isActive
+                ? "bg-white px-2 py-1 rounded-md text-primary font-semibold"
+                : "text-white"
+            }
+          >
             {item.name}
-          </p>
+          </NavLink>
         ))}
       </div>
       <div className="flex items-center gap-3">

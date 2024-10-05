@@ -1,13 +1,15 @@
 import Banner from "../components/Banner";
 import News from "../components/News";
-import PeduleSampah from "../components/PeduleSampah";
+import PeduliSampah from "../components/PeduliSampah";
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
     <div className="flex flex-col gap-20">
       <Banner />
-      <PeduleSampah />
+      <PeduliSampah />
       <News />
+      <Testimonial />
     </div>
   );
 };

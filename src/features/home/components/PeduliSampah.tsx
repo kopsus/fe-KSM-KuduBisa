@@ -1,4 +1,4 @@
-const PeduleSampah = () => {
+const PeduliSampah = () => {
   const listPeduliSampah = [
     {
       id: "1",
@@ -42,4 +42,4 @@ const PeduleSampah = () => {
   );
 };
 
-export default PeduleSampah;
+export default PeduliSampah;

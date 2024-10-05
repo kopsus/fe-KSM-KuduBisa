@@ -5,7 +5,7 @@ const News = () => {
         <p className="title_news">
           Banyumas Bangun Tempat Pengolahan Sampah Senilai Rp50,3 Miliar
         </p>
-        <p className="desc_news">
+        <p className="desc_news line-clamp-[9]">
           PEMERINTAH Kabupaten Banyumas, Jawa Tengah, mengalokasikan dana Rp50,3
           miliar untuk membangun tempat pembuangan akhir berbasis lingkungan dan
           edukasi (TPA BLE) di Desa Wlahar Wetan, Kecamatan Kalibagor. TPA BLE
